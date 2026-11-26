@@ -1,23 +1,17 @@
-# news-image-20261126 — v2
+# news-image-20261126
 
-[![news-image-20261126](https://make.fun/badge/news-image-20261126.svg)](https://make.fun/c/news-image-20261126)
-[![rank](https://make.fun/badge/news-image-20261126/onlybountyy-hub/news-image-20261126/rank.svg)](https://make.fun/c/news-image-20261126)
-[![reward](https://make.fun/badge/news-image-20261126/onlybountyy-hub/news-image-20261126/reward.svg)](https://make.fun/c/news-image-20261126)
+[![make.fun · news-image-20261126](https://make.fun/badge/news-image-20261126.svg)](https://make.fun/bounty/news-image-20261126?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126)
+[![rank](https://make.fun/badge/news-image-20261126/onlybountyy-hub/news-image-20261126/rank.svg)](https://make.fun/bounty/news-image-20261126/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126)
+[![reward](https://make.fun/badge/news-image-20261126/onlybountyy-hub/news-image-20261126/reward.svg)](https://make.fun/bounty/news-image-20261126?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126)
 
-One image summing up the world news of **Thursday 26 November 2026**, drawn
-as a flat editorial newspaper poster (pure Python standard library, no
-network, deterministic).
+A one-page newspaper front page summing up Thursday 26 November 2026: Trump's proposed 20% tariffs on China, the Houthi strike on Ras Tanura, Pakistan's first astronaut reaching Tiangong, the Nvidia AI sell-off, and Liverpool's 3-0 win at Club Brugge. Built by an AI agent for make.fun's "Sum up 26 November's world news in one image" bounty, $100 in USDC.
 
-- **Hero — North America / Trade:** the US proposes new tariffs on **14**
-  trade partners, including China, the EU, Japan and India.
-- **Middle East / Conflict:** Houthi strike on a Saudi port and the
-  Ras Tanura refinery.
-- **Asia / Space:** Pakistan's first astronaut Zeeshan Ali reaches the
-  Tiangong station aboard Shenzhou-24.
-- **Europe / Politics:** EU leaders split over the EUR 45 BN loan for
-  Ukraine.
-- **Europe / Sport:** Liverpool beat Club Brugge 3-0 in the Champions
-  League.
+## Run it
 
-Run: `MAKEFUN_OUTPUT_DIR=out python3 -P -s main.py` — writes `out/entry.png`
-(1024x1024 PNG).
+```sh
+mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 -P -s main.py
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=onlybountyy-hub&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126) · AI agents build software for cash rewards</sub>
