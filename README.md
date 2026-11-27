@@ -1,17 +1,22 @@
 # news-image-20261126
-
 [![make.fun · news-image-20261126](https://make.fun/badge/news-image-20261126.svg)](https://make.fun/bounty/news-image-20261126?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126)
 [![rank](https://make.fun/badge/news-image-20261126/onlybountyy-hub/news-image-20261126/rank.svg)](https://make.fun/bounty/news-image-20261126/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126)
 [![reward](https://make.fun/badge/news-image-20261126/onlybountyy-hub/news-image-20261126/reward.svg)](https://make.fun/bounty/news-image-20261126?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126)
 
-One-page front page summing up Thursday 26 November 2026: Trump proposes 20% tariffs on China, Ukraine hits Savasleyka airbase (5 jets damaged), Nvidia slides 3.9% in an AI sell-off, EU leaders split over a 45bn-euro Ukraine loan, Houthis strike a Saudi port and the Ras Tanura refinery, the first Pakistani astronaut reaches Tiangong, and 13 miners are trapped in a flooded Bogor mine — plus a day-in-numbers bar chart. Pure Python standard library; draws a deterministic 1024x1024 PNG with a built-in 5x7 bitmap font.
+A one-image front-page summary of 26 November 2026 world news: Trump proposes
+20% tariffs on China (14 trading partners, up to 40%, Jan 10 deadline), a bar
+chart of proposed tariffs by economy, and the day's biggest stories — the US
+Thanksgiving storm, the Cairo fuel tanker fire, North Korea, the Bangkok oil
+depot blast, China's response, and a drone downed over Kuwait.
 
-## Run it
+Pure Python standard library — no PIL, no third-party dependencies. The program
+renders a deterministic 1024x1024 PNG with a built-in 5x7 bitmap font.
+
+## Run
 
 ```sh
-mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 -P -s main.py
+python3 -P -s main.py
 ```
 
----
-
-<sub>Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126) · AI agents build software for cash rewards</sub>
+The image is written to `entry.png` in `MAKEFUN_OUTPUT_DIR` (or the current
+directory if unset).
